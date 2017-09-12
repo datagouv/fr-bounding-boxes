@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "xo",
     "build": "./build.sh",
-    "prepublish": "yarn build"
+    "version": "yarn build"
   },
   "devDependencies": {
     "@turf/bbox": "^4.6.0",
