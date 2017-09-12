@@ -1,6 +1,6 @@
 {
   "name": "@etalab/fr-bounding-boxes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bounding boxes for French administrative levels",
   "main": "./lib",
   "repository": "git@github.com:etalab/fr-bounding-boxes.git",
