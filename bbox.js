@@ -1,5 +1,5 @@
 'use strict'
-const computeBbox = require('@turf/bbox')
+const turfBbox = require('@turf/bbox')
 const through = require('through2').obj
 const {stringify} = require('JSONStream')
 const {parse} = require('ndjson')
@@ -39,3 +39,8 @@ process.stdin
   }))
   .pipe(stringify())
   .pipe(process.stdout)
+
+function computeBbox(feature) {
+  return turfBbox(feature)
+    .map(coordinate => Number(coordinate.toFixed(4)))
+}
