@@ -1,0 +1,34 @@
+{
+  "name": "@etalab/fr-bounding-boxes",
+  "version": "0.1.0-dev",
+  "description": "Bounding boxes for French administrative levels",
+  "main": "./lib",
+  "repository": "git@github.com:etalab/fr-bounding-boxes.git",
+  "author": "Jérôme Desboeufs <jerome.desboeufs@data.gouv.fr>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "xo",
+    "build": "./build.sh",
+    "prepublish": "yarn build"
+  },
+  "devDependencies": {
+    "@turf/bbox": "^4.6.0",
+    "JSONStream": "^1.3.1",
+    "geojson-cli": "^0.0.1",
+    "ndjson": "^1.5.0",
+    "through2": "^2.0.3",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  },
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}
