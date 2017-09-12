@@ -33,13 +33,13 @@ Les identifiants utilisés sont des [geoids](https://github.com/etalab/geoids).
 ### Via unpkg
 
 ```bash
-curl https://unpkg.com/@etalab/fr-bounding-boxes@latest/dist/communes.json
+curl -L https://unpkg.com/@etalab/fr-bounding-boxes@latest/dist/communes.json
 
-curl https://unpkg.com/@etalab/fr-bounding-boxes@latest/dist/epci.json
+curl -L https://unpkg.com/@etalab/fr-bounding-boxes@latest/dist/epci.json
 
-curl https://unpkg.com/@etalab/fr-bounding-boxes@latest/dist/departements.json
+curl -L https://unpkg.com/@etalab/fr-bounding-boxes@latest/dist/departements.json
 
-curl https://unpkg.com/@etalab/fr-bounding-boxes@latest/dist/regions.json
+curl -L https://unpkg.com/@etalab/fr-bounding-boxes@latest/dist/regions.json
 ```
 
 ### Via npm ou yarn
